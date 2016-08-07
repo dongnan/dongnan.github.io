@@ -1,0 +1,6 @@
+<!-- 标签云 -->
+<div class="tag-cloud">
+    {% for tag in site.tags %}
+    <a href="{% if page.url != '/tags/' %}{{ site.baseurl }}/tags/{% endif %}#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+    {% endfor %}
+</div>
