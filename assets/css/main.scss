@@ -173,11 +173,11 @@ blockquote {
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 1rem;
+        bottom: 1.5rem;
     }
     @media (min-width:769px) {
         .inner {
-            bottom: 2.5rem;
+            bottom: 1.5rem;
         }
     }
 }
