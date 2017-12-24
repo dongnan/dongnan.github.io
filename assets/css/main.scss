@@ -163,6 +163,8 @@ blockquote {
 
     .pure-img {
         position: relative;
+        width: inherit;
+        height: 200px;
         z-index: -9999;
     }
 
